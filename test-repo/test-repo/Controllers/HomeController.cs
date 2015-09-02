@@ -10,6 +10,7 @@ namespace test_repo.Controllers
     {
         public ActionResult Index()
         {
+            ViewBag.Something = "Anything";
             return View();
         }
 
